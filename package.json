@@ -1,0 +1,26 @@
+{
+  "name": "if-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "prettier": "^2.8.3"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DariaRomanowska/if-react.git"
+  },
+  "author": "Daria Romanowskaja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DariaRomanowska/if-react/issues"
+  },
+  "homepage": "https://github.com/DariaRomanowska/if-react#readme"
+}

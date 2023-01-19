@@ -1,0 +1,29 @@
+.name {
+    grid-row: 2 / 3;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #3077c6;
+    cursor: pointer;
+}
+
+.name:hover {
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    color: #43434d;
+}
+
+.homes--gallery p:first-of-type {
+    text-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+}
+
+.localization {
+    grid-row: 3 / 4;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #bfbfbf;
+}

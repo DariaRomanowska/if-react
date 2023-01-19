@@ -1,0 +1,12 @@
+.background-homes {
+  background-color: #eaf0f9;
+}
+
+.homes {
+  display: grid;
+  justify-items: center;
+  row-gap: 104px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+

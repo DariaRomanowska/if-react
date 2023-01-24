@@ -1,8 +1,0 @@
-.homes--gallery {
-    display: grid;
-    position: relative;
-    row-gap: 24px;
-    column-gap: 16px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, auto);
-}

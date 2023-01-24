@@ -11,7 +11,13 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "swiper": "^8.4.6",
     "web-vitals": "^2.1.4"
+  },
+  "settings": {
+    "import/resolver": {
+      "webpack": "/configs/webpack.dev.config.js"
+    }
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "eslint-import-resolver-webpack": "^0.13.2",
     "prettier": "2.8.3"
   }
 }

@@ -11,9 +11,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-
-
-
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 export const App = () => {

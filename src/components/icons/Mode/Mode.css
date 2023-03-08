@@ -1,0 +1,9 @@
+.navigation--mode{
+    background-color: unset;
+    border: none;
+}
+
+.navigation--mode svg{
+    width: 30px;
+    height: 30px;
+}

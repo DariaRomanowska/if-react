@@ -1,0 +1,6 @@
+.header--title svg{
+    width: 205px;
+    height: 40px;
+    align-items: flex-start;
+    align-self: start;
+}

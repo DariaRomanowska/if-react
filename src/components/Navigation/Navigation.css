@@ -1,0 +1,41 @@
+.header--nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.header--nav_row {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--general-white);
+  position: relative;
+  line-height: 44px;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 4px;
+  top: 100%;
+  left: 15%;
+  background: #f5bd41;
+  transform: translate(-10%);
+}
+
+nav a:hover::after {
+  width: 90%;
+}

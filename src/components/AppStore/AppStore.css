@@ -1,0 +1,23 @@
+.app {
+    gap: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app svg {
+    margin-bottom: 120px;
+}
+
+.app svg:first-child {
+    width: 135px;
+    height: 40px;
+    justify-self: end;
+}
+
+.app svg:last-child {
+    width: 120px;
+    height: 40px;
+    justify-self: start;
+}

@@ -1,0 +1,33 @@
+.main {
+  width: 100%;
+  background-image: url(../../img/background-header.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #10367c;
+}
+
+.main-title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 59px;
+  color: var(--general-white);
+  margin-bottom: 135px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-items: end;
+  padding-top: 50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.d_none{
+  display: none;
+}

@@ -1,0 +1,46 @@
+._input-block {
+  height: 65px;
+  background-color: white;
+}
+
+.search--date {
+  width: 24%;
+}
+
+.search--place {
+  width: 30%;
+  padding-left: 10px;
+}
+
+.search--place svg {
+  display: none;
+}
+
+.search--place {
+  position: relative;
+}
+
+.search--place label {
+  width: 100%;
+  position: absolute;
+  bottom: 100%;
+  transform: translateY(-100%);
+  padding-left: 3px;
+  text-align: left;
+}
+
+.search--rooms {
+  width: 34%;
+  align-items: center;
+}
+
+.search--submit {
+  width: 12%;
+  border-radius: 5px;
+  box-shadow: 3px 0 0 3px #3077c6;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
